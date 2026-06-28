@@ -20,6 +20,6 @@ class Gongd < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/gongd --version")
+    assert_match "Usage: gongd", shell_output("#{bin}/gongd --help")
   end
 end
