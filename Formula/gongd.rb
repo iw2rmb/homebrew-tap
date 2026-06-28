@@ -3,7 +3,7 @@ class Gongd < Formula
   homepage "https://github.com/iw2rmb/gongd"
   url "https://github.com/iw2rmb/gongd.git",
       tag:      "v0.1.4",
-      revision: "6947ba5824178b75323f2aa229de53a2a4ae6f78"
+      revision: "6947ba512554504206445506f63d44664e32d768"
   license "MIT"
   head "https://github.com/iw2rmb/gongd.git", branch: "main"
 
